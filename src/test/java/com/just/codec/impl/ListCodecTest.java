@@ -2,13 +2,12 @@ package com.just.codec.impl;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.just.codec.Codec;
+import com.just.codec.CodecTestUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.stream.StreamSupport;
-
-import com.just.codec.Codec;
-import com.just.codec.CodecTestUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

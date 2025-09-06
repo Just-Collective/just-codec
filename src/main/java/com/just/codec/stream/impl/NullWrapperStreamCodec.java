@@ -1,11 +1,10 @@
 package com.just.codec.stream.impl;
 
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
-import com.just.core.functional.function.Function;
 import com.just.codec.stream.StreamCodec;
 import com.just.codec.stream.schema.StreamCodecSchema;
+import com.just.core.functional.function.Function;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public class NullWrapperStreamCodec<ValueType, WrapperType> implements StreamCodec<WrapperType> {
 

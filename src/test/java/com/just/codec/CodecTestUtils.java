@@ -1,7 +1,6 @@
 package com.just.codec;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import com.just.codec.stream.schema.impl.ByteBufferStreamCodecSchema;
 
 public class CodecTestUtils {

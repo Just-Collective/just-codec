@@ -1,6 +1,8 @@
 package com.just.codec.impl;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.just.codec.Codec;
+import com.just.codec.CodecTestUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -10,9 +12,6 @@ import java.util.UUID;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
-
-import com.just.codec.Codec;
-import com.just.codec.CodecTestUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

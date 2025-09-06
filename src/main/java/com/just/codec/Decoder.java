@@ -1,9 +1,9 @@
 package com.just.codec;
 
-import java.util.function.Function;
-
-import com.just.core.functional.result.Result;
 import com.just.codec.schema.CodecSchema;
+import com.just.core.functional.result.Result;
+
+import java.util.function.Function;
 
 public interface Decoder<A> {
 

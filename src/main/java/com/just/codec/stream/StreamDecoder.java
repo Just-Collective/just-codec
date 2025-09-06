@@ -1,8 +1,7 @@
 package com.just.codec.stream;
 
-import org.jetbrains.annotations.NotNull;
-
 import com.just.codec.stream.schema.StreamCodecSchema;
+import org.jetbrains.annotations.NotNull;
 
 public interface StreamDecoder<A> {
 

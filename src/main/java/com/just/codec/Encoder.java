@@ -1,8 +1,8 @@
 package com.just.codec;
 
-import java.util.function.Function;
-
 import com.just.codec.schema.CodecSchema;
+
+import java.util.function.Function;
 
 public interface Encoder<A> {
 

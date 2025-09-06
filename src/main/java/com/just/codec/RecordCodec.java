@@ -1,5 +1,6 @@
 package com.just.codec;
 
+import com.just.codec.schema.CodecSchema;
 import com.just.core.functional.function.Function;
 import com.just.core.functional.function.Function10;
 import com.just.core.functional.function.Function11;
@@ -17,7 +18,6 @@ import com.just.core.functional.function.Function7;
 import com.just.core.functional.function.Function8;
 import com.just.core.functional.function.Function9;
 import com.just.core.functional.result.Result;
-import com.just.codec.schema.CodecSchema;
 
 public class RecordCodec {
 

@@ -1,11 +1,11 @@
 package com.just.codec.schema;
 
+import com.just.core.functional.result.Result;
+import com.just.core.functional.tuple.Tuple2;
+
 import java.util.function.Consumer;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
-import com.just.core.functional.result.Result;
-import com.just.core.functional.tuple.Tuple2;
 
 public interface CodecSchema<T> {
 

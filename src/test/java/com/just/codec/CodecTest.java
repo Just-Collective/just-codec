@@ -1,9 +1,8 @@
 package com.just.codec;
 
-import org.junit.jupiter.api.Test;
-
 import com.just.codec.impl.Codecs;
 import com.just.codec.impl.ListCodec;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 

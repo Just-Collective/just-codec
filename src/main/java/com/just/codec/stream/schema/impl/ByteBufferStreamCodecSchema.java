@@ -1,8 +1,8 @@
 package com.just.codec.stream.schema.impl;
 
-import java.nio.ByteBuffer;
-
 import com.just.codec.stream.schema.StreamCodecSchema;
+
+import java.nio.ByteBuffer;
 
 public class ByteBufferStreamCodecSchema implements StreamCodecSchema<ByteBuffer> {
 

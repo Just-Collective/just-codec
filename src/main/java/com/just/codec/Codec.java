@@ -1,13 +1,13 @@
 package com.just.codec;
 
-import java.util.Optional;
-
-import com.just.core.functional.function.Function;
-import com.just.core.functional.option.Option;
-import com.just.core.functional.result.Result;
 import com.just.codec.impl.ListCodec;
 import com.just.codec.impl.UnboundedMapCodec;
 import com.just.codec.schema.CodecSchema;
+import com.just.core.functional.function.Function;
+import com.just.core.functional.option.Option;
+import com.just.core.functional.result.Result;
+
+import java.util.Optional;
 
 public interface Codec<A> extends Encoder<A>, Decoder<A> {
 

@@ -1,8 +1,8 @@
 package com.just.codec;
 
+import com.just.codec.schema.CodecSchema;
 import com.just.core.functional.function.Function;
 import com.just.core.functional.result.Result;
-import com.just.codec.schema.CodecSchema;
 
 public record FieldCodec<S, V>(
     String fieldName,

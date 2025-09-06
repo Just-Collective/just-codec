@@ -1,11 +1,11 @@
 package com.just.codec.impl;
 
-import java.util.UUID;
-import java.util.stream.IntStream;
-
-import com.just.core.functional.result.Result;
 import com.just.codec.Codec;
 import com.just.codec.schema.CodecSchema;
+import com.just.core.functional.result.Result;
+
+import java.util.UUID;
+import java.util.stream.IntStream;
 
 public class UUIDCodec implements Codec<UUID> {
 

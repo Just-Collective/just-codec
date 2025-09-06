@@ -1,11 +1,11 @@
 package com.just.codec;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.just.codec.schema.CodecSchema;
 import com.just.core.functional.result.Result;
 import com.just.core.functional.tuple.Tuple2;
-import com.just.codec.schema.CodecSchema;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public interface BaseMapCodec<K, V> extends Codec<Map<K, V>> {
 

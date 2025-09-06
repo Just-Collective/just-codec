@@ -2,14 +2,13 @@ package com.just.codec;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.just.codec.schema.CodecSchema;
+import com.just.core.functional.result.Result;
+import com.just.core.functional.tuple.Tuple2;
 
 import java.util.Map;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-import com.just.core.functional.result.Result;
-import com.just.core.functional.tuple.Tuple2;
-import com.just.codec.schema.CodecSchema;
 
 public class JacksonCodecSchema implements CodecSchema<JsonNode> {
 

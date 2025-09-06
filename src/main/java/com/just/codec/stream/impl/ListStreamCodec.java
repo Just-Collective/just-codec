@@ -1,12 +1,11 @@
 package com.just.codec.stream.impl;
 
+import com.just.codec.stream.StreamCodec;
+import com.just.codec.stream.schema.StreamCodecSchema;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.just.codec.stream.StreamCodec;
-import com.just.codec.stream.schema.StreamCodecSchema;
 
 public class ListStreamCodec<A> implements StreamCodec<List<A>> {
 

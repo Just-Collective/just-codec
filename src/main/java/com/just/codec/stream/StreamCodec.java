@@ -1,14 +1,13 @@
 package com.just.codec.stream;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.util.*;
-
-import com.just.core.functional.option.Option;
 import com.just.codec.stream.impl.ListStreamCodec;
 import com.just.codec.stream.impl.MapStreamCodec;
 import com.just.codec.stream.impl.NullWrapperStreamCodec;
 import com.just.codec.stream.schema.StreamCodecSchema;
+import com.just.core.functional.option.Option;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.*;
 
 public interface StreamCodec<A> extends StreamEncoder<A>, StreamDecoder<A> {
 

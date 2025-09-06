@@ -1,11 +1,11 @@
 package com.just.codec.impl;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.just.core.functional.result.Result;
 import com.just.codec.Codec;
 import com.just.codec.schema.CodecSchema;
+import com.just.core.functional.result.Result;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ListCodec<A> implements Codec<List<A>> {
 

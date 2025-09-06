@@ -1,14 +1,13 @@
 package com.just.codec.stream.impl;
 
+import com.just.codec.stream.StreamCodec;
+import com.just.codec.stream.schema.StreamCodecSchema;
+import com.just.core.functional.option.Option;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 import java.util.UUID;
-
-import com.just.core.functional.option.Option;
-import com.just.codec.stream.StreamCodec;
-import com.just.codec.stream.schema.StreamCodecSchema;
 
 public class StreamCodecs {
 
